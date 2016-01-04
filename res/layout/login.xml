@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="30dp"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" >
+
+        <ImageView
+            android:id="@+id/img_login"
+            android:layout_width="280dp"
+            android:layout_height="220dp"
+            
+            
+            android:src="@drawable/old" />
+
+        <EditText
+            android:id="@+id/input_wd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/login"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="36dp"
+            android:ems="10"
+            android:hint="@string/pwd_hint"
+            android:inputType="textPassword" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/input_ac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/input_wd"
+            android:layout_alignParentLeft="true"
+            android:ems="10"
+            android:hint="@string/account_hint" />
+
+        <Button
+            android:id="@+id/toRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="29dp"
+            android:background="#220088"
+            android:text="註冊"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/toRegister"
+            android:layout_alignBottom="@+id/toRegister"
+            android:layout_marginLeft="51dp"
+            android:layout_toRightOf="@+id/toRegister"
+            android:background="#220088"
+            android:text="登入"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+
+</LinearLayout>

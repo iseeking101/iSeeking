@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/member_Nametext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:text="@string/member_Name"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/input_member_Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/member_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:text="@string/member_phone"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/input_member_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/member_reward"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:text="@string/member_reward"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/input_member_reward"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/member_addr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:text="@string/member_addr"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/input_member_addr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/member_gps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:text="@string/gps"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/member_gps_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" >
+                </EditText>
+            </LinearLayout>
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_get_gps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/get_gps"
+                android:textColor="#FFFFFF"
+                android:background="#220088" />
+			<TextView
+			    android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                >
+			    
+			</TextView>
+        </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_member_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#220088"
+            android:text="@string/member_update"
+            android:textColor="#FFFFFF" />
+       
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iSeeking</string>
+    
+    <string name="MissOldManTitle">走失老人資料</string>
+    <string name="btn_missing">走失通報</string>
+    <string name="action_scan">Scan</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="account_hint">account</string>
+    <string name="pwd_hint">password</string>
+    <string name="btn_login">login</string>
+    <string name="btn_register">register</string>
+    <string name="btn_back">back</string>
+    <string name="member_ID">ID</string>
+    <string name="registerLayout">註冊帳號</string>
+    <string name="member_Name">姓名 :</string>
+    <string name="email_hint">email</string>
+    <string name="member_phone">電話 :</string>
+    <string name="member_reward">獎勵 :</string>
+    <string name="member_titleName">個人資料</string>
+    <string name="member_addr">位址 :</string>
+    <string name="member_update">儲存</string>
+    <string name="old_update">修改</string>
+    <string name="old_BEACONID">BEACON ID :</string>
+    <string name="old_Name">姓名 :</string>
+    <string name="old_characteristic">特徵 :</string>
+    <string name="old_clothes">穿著 :</string>
+    <string name="old_history">病史 :</string>
+    <string name="welcomeLayout">尋找失智叔叔</string>
+    <string name="old_addr">電話 :</string>
+    <string name="oldmanlayout">老人資料</string>
+    <string name="memberlayout">個人資料</string>
+    <string name="index_settime">設定時間</string>
+    <string name="index_old">老人資料</string>
+    <string name="index_person">個人資料</string>
+    <string name="index_missing">附近走失者</string>
+    <string name="index_change">找到了</string>
+    <string name="action_settings">sitting</string>
+    <string name="old_back">back</string>
+    <string name="Beacon_id">BeaconID :</string>
+    <string name="getBeaconId">getID</string>
+    <string name="MemberSitting">個人資料</string>
+    
+    <string name="addNewOldMan">新增老人資料</string>
+    <string name="OldSitting">老人資料</string>
+    <string name="settime">設定時間</string>
+    <string name="btn_update">修改</string>
+    <string name="setTimeLayout">設定時間</string>
+    <string name="gps">GPS:</string>
+    <string name="get_gps">Get GPS</string>
+    <string name="OldGroupLayout">群組設定</string>
+	<string name="index_oldgroup">我的群組</string>
+	<string name="titleGroupMember">群組成員：</string>
+	<string name="add">新增</string>
+	<string name="groupm">群組管理</string>
+	<string name="back">back</string>
+	<string name="GroupHostLayout">我的群組</string>
+	
+</resources>

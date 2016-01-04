@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ToggleButton
+        android:id="@+id/index_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.05"
+        android:text="@string/index_change"
+        android:textOff="不見了"
+        android:textOn="找到了" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+         <ToggleButton
+             android:id="@+id/index_scan"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:checked="false"
+             android:textOff="開始偵測"
+             android:textOn="偵測中" />
+
+        <Button
+            android:id="@+id/index_missing"
+            android:layout_width="wrap_content"
+            android:layout_height="164dp"
+            android:layout_weight="0.03"
+            android:text="@string/index_missing" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/index_oldgroup"
+            android:layout_width="152dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.02"
+            android:text="@string/index_oldgroup" />
+
+        <Button
+            android:id="@+id/index_old"
+            android:layout_width="wrap_content"
+            android:layout_height="171dp"
+            android:layout_weight="0.39"
+            android:text="@string/index_old"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+</LinearLayout>

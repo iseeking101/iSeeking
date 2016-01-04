@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="tw.com.kemo.activity.TrackUncleActivity" >
+
+    <item
+        android:id="@+id/Member"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/MemberSitting"/>
+     <item
+        android:id="@+id/Old"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/OldSitting"/>
+     <item
+        android:id="@+id/action_scan"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="@string/action_scan"/>
+
+</menu>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <!-- first row that Country and publish date -->
+
+    <TextView
+        android:id="@+id/list_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="item 1"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/list_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="item 1"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/user_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="item 1"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+    
+    
+
+    <editView
+        android:id="@+id/list_item_inputvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName" >
+        
+    </editView>
+
+</LinearLayout>
